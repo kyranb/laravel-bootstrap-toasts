@@ -34,7 +34,7 @@ class ToastServiceProvider extends ServiceProvider
         $this->loadViewsFrom(__DIR__ . '/../../views', 'laravel-bootstrap-toasts');
 
         $this->publishes([
-            __DIR__ . '/../../views' => base_path('resources/views/vendor/laravel-boostrap-toasts')
+            __DIR__ . '/../../views' => base_path('resources/views/vendor/laravel-bootstrap-toasts')
         ],'views');
         $this->publishes([
             __DIR__.'/../../config.php' => config_path('laravel-bootstrap-toasts.php')
